@@ -33,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   );
 }
 
+
 function NavLink({ href, children }: { href: string; children: React.ReactNode }) {
   return (
     <Link
